@@ -13,7 +13,7 @@ import bucket from '../Bucket/Firebase.js';
 import fs from 'fs';
 
 const storageConfig = multer.diskStorage({
-    destination: '',
+    // destination: '',
     filename: function (req, file, cb) {
 
         console.log("mul-file: ", file);
